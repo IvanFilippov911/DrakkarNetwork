@@ -1,0 +1,90 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+.vs/
+*.user
+*.suo
+*.DotSettings.user
+
+# .NET build
+bin/
+obj/
+out/
+**/bin/
+**/obj/
+**/out/
+**/publish/
+publish/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+**/node_modules/
+**/dist/
+**/build/
+
+# Logs / temp
+logs/
+*.log
+tmp/
+temp/
+**/logs/
+
+# Runtime data
+runtime/
+docker-data/
+loki-data/
+prometheus-data/
+grafana-data/
+**/runtime/
+**/loki-data/
+**/prometheus-data/
+**/grafana-data/
+
+# Docker local overrides
+docker-compose.override.yml
+docker-compose.*.local.yml
+
+# Environment files / secrets
+.env
+.env.local
+.env.*.local
+.env.*
+
+# Allow examples
+!.env.example
+!.env.*.example
+
+# Appsettings with real local/prod values
+appsettings.Development.json
+appsettings.Production.json
+**/appsettings.Development.json
+**/appsettings.Production.json
+
+# Certs / keys
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+
+# Test output
+TestResults/
+coverage/
+
+# Local db files
+*.sqlite
+*.db
+
+# JS package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
