@@ -4,7 +4,7 @@
 
 Это один из ключевых control-plane сценариев Drakkar Network: администратор меняет сетевой профиль сервера, а система безопасно применяет это изменение через async job и node agent.
 
-![Server Transport Profile Apply Sequence](./assets/server-transport-profile-apply-sequence.jpeg)
+![Server Transport Profile Apply Sequence](./assets/server-transport-profile-apply-sequence.svg)
 
 ## Назначение flow
 
@@ -80,7 +80,7 @@ VPN runtime, который обслуживает реальные подклю
 
 Жизненный цикл apply job показан на state machine diagram.
 
-![Server Transport Profile Apply State Machine](./assets/server-transport-profile-apply-state-machine.jpeg)
+![Server Transport Profile Apply State Machine](./assets/server-transport-profile-apply-state-machine.svg)
 
 ## Основные состояния job
 
